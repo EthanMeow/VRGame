@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class ButtonVR : MonoBehaviour
 {
@@ -40,11 +41,8 @@ public class ButtonVR : MonoBehaviour
         }
     }
 
-    public void SpawnSphere()
+    public void LoadScene(string sceneName)
     {
-        GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        sphere.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-        sphere.transform.localPosition = new Vector3(0, 1, 2);
-        sphere.AddComponent<Rigidbody>();
+        SceneManager.LoadScene(sceneName);
     }
 }
