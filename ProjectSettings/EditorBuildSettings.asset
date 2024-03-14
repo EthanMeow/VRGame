@@ -8,6 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Air Signs.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Menus/Menu.unity
+    guid: 1f3af7cdeb9879646bf796294da58a46
+  - enabled: 1
+    path: Assets/Scenes/Earth Signs.unity
+    guid: 0a3c5084ca4f1a0458146e6a703cd319
+  - enabled: 1
+    path: Assets/Scenes/Fire Signs.unity
+    guid: ddc78ab18127def4eb5b8fdaab991e86
+  - enabled: 1
+    path: Assets/Scenes/Water Signs.unity
+    guid: 40851474396fd354d87a051df60c889b
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2b7dad5155d9b8d4c8f1c0a15ab47a54,
       type: 2}
